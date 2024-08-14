@@ -1,0 +1,128 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Container to centralize content */
+.container {
+    width: 80%;
+    margin: 40px auto; /* added top and bottom margin */
+    padding: 20px; /* added padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added box shadow */
+}
+
+/* Top header styles */
+.top_header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px; /* added left and right padding */
+}
+
+.top_center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact i {
+    margin-right: 15px;
+}
+
+.auth a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.auth a:hover {
+    text-decoration: underline;
+}
+
+/* Main header and navigation styles */
+.main_header {
+    background: #fff;
+    padding: 10px 20px; /* added left and right padding */
+    border-bottom: 1px solid #ddd;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    margin-top: 8px;
+    width: 105px;
+    border-radius: 100%;
+}
+
+.menubar ul {
+    list-style: none;
+    display: flex;
+    margin: 10px; /* added margin */
+}
+
+.menubar li {
+    margin: 0 10px;
+}
+
+.menubar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menubar a:hover {
+    color: #007BFF; /* Highlight color */
+}
+
+/* Specific hover effect for "About Us" */
+.menubar li a[href="about.php"]:hover {
+    color: #FF4500; /* Change color to a distinct value for "About Us" */
+}
+
+.search input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 10px; /* added margin */
+}
+
+/* Content section styles */
+.content {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 40px; /* added top and bottom margin */
+}
+
+.content h1, .content h2 {
+    color: #007BFF; /* Header color */
+    margin: 10px; /* added margin */
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px; /* added left and right padding */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px; /* added bottom margin */
+}
