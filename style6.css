@@ -74,7 +74,7 @@
 
 .menubar ul li a {
 	text-decoration: none;
-	color: #000000;
+	color: grey;
 	text-transform: uppercase;
 	padding: 10px; /* Consistent padding for all menu items */
 	display: block; /* Ensure padding is applied correctly */
